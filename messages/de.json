@@ -1,0 +1,42 @@
+{
+  "Metadata": {
+    "title": "Kopf oder Zahl — Sofortiger, fairer 3D-Münzwurf",
+    "description": "Münze online werfen mit realistischer 3D-Physik, authentischem Münzklang und garantiert zufälligem 50/50-Ergebnis. Schnell, unparteiisch und kostenlos."
+  },
+  "Header": {
+    "kicker": "Unparteiischer 3D-Münzwurf",
+    "tagline": "Echter Zufall, 50/50 fair",
+    "title": "Sofortiger und unparteiischer Münzwurf",
+    "subtitle": "Präzise Physiksimulation mit 3D-Metallmünzen, akustischem Klang und unvoreingenommenen Zufallsergebnissen."
+  },
+  "Controls": {
+    "flip": "MÜNZE WERFEN",
+    "heads": "KOPF",
+    "tails": "ZAHL",
+    "headsLabel": "Kopf",
+    "tailsLabel": "Zahl",
+    "yesNo": "Ja / Nein",
+    "choice": "Option A / B",
+    "custom": "Beschriften...",
+    "done": "Fertig",
+    "mute": "Ton stumm",
+    "unmute": "Ton an"
+  },
+  "Stats": {
+    "totalFlips": "Würfe gesamt",
+    "sessionTape": "VERLAUF (LETZTE 10)",
+    "streak": "Serie / Rekord",
+    "reset": "Zurücksetzen",
+    "noFlips": "Noch keine Würfe in dieser Sitzung. Münze antippen oder Leertaste drücken."
+  },
+  "Audit": {
+    "title": "Details der Zufallsberechnung",
+    "outcome": "Ergebnis",
+    "sample": "Entropiewert",
+    "identifier": "Prüfnummer",
+    "timestamp": "Uhrzeit",
+    "turns": "Umdrehungen im Flug",
+    "explainer": "Dieser Wurf bezog echte Systementropie über die Web Cryptography API mit gleichmäßiger Binärverteilung.",
+    "close": "Schließen"
+  }
+}

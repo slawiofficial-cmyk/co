@@ -1,0 +1,42 @@
+{
+  "Metadata": {
+    "title": "Flip a Coin — Instant, Fair & Unbiased 3D Coin Toss",
+    "description": "Flip a coin online with realistic 3D physics, authentic metal sounds, and truly random 50/50 outcomes. Simple, fast, and free."
+  },
+  "Header": {
+    "kicker": "Unbiased 3D Coin Toss",
+    "tagline": "Truly random, fair 50/50",
+    "title": "Instant, Unbiased Coin Flip",
+    "subtitle": "Clean physics simulation with 3D metal coins, authentic sound, and unbiased random flips."
+  },
+  "Controls": {
+    "flip": "FLIP COIN",
+    "heads": "HEADS",
+    "tails": "TAILS",
+    "headsLabel": "Heads",
+    "tailsLabel": "Tails",
+    "yesNo": "Yes / No",
+    "choice": "Choice A / B",
+    "custom": "Custom Labels...",
+    "done": "Done",
+    "mute": "Mute Sound",
+    "unmute": "Unmute Sound"
+  },
+  "Stats": {
+    "totalFlips": "Total Flips",
+    "sessionTape": "SESSION TAPE (LAST 10)",
+    "streak": "Streak / Record",
+    "reset": "Reset",
+    "noFlips": "No flips recorded yet this session. Tap the coin or press Space to begin."
+  },
+  "Audit": {
+    "title": "Randomness & Verification Details",
+    "outcome": "Outcome",
+    "sample": "Entropy Value",
+    "identifier": "Audit Identifier",
+    "timestamp": "Local Timestamp",
+    "turns": "Flight Revolutions",
+    "explainer": "This flip sampled unbiased system entropy via the Web Cryptography API with zero modulo bias.",
+    "close": "Close Details"
+  }
+}

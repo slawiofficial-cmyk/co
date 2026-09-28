@@ -1,0 +1,42 @@
+{
+  "Metadata": {
+    "title": "Pile ou Face — Lancer de pièce 3D instantané et équitable",
+    "description": "Lancez une pièce en ligne avec une physique 3D réaliste, un son métallique authentique et un résultat aléatoire 50/50 garanti. Simple et gratuit."
+  },
+  "Header": {
+    "kicker": "Lancer de pièce 3D impartial",
+    "tagline": "Aléatoire équitable 50/50",
+    "title": "Lancer de pièce instantané et impartial",
+    "subtitle": "Simulation physique soignée avec des pièces métalliques 3D, un rendu sonore réaliste et des tirages aléatoires impartiaux."
+  },
+  "Controls": {
+    "flip": "LANCER LA PIÈCE",
+    "heads": "FACE",
+    "tails": "PILE",
+    "headsLabel": "Face",
+    "tailsLabel": "Pile",
+    "yesNo": "Oui / Non",
+    "choice": "Choix A / B",
+    "custom": "Personnaliser...",
+    "done": "Valider",
+    "mute": "Couper le son",
+    "unmute": "Activer le son"
+  },
+  "Stats": {
+    "totalFlips": "Total des lancers",
+    "sessionTape": "HISTORIQUE (10 DERNIERS)",
+    "streak": "Série en cours / Record",
+    "reset": "Réinitialiser",
+    "noFlips": "Aucun lancer pour l'instant. Touchez la pièce ou appuyez sur Espace."
+  },
+  "Audit": {
+    "title": "Détails du tirage aléatoire",
+    "outcome": "Résultat",
+    "sample": "Valeur d'entropie",
+    "identifier": "Identifiant de tirage",
+    "timestamp": "Heure locale",
+    "turns": "Rotations en vol",
+    "explainer": "Ce tirage a interrogé l'entropie système via l'API Web Cryptography avec une distribution uniforme sans biais de modulo.",
+    "close": "Fermer"
+  }
+}

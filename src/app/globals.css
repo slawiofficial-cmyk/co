@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --coin-size: 240px;
+    --coin-thickness: 12px;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #131417;
+    color: #f5f2eb;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  html:not(.dark) body {
+    background-color: #f6f3eb;
+    color: #18191c;
+    color-scheme: light;
+  }
+}
+
+/* Banknote Guilloche & Engraved Texture Pattern (Dark Mode) */
+.bg-guilloche {
+  background-image: 
+    radial-gradient(circle at 50% 25%, rgba(197, 152, 34, 0.05) 0%, transparent 60%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.01) 0px, rgba(255, 255, 255, 0.01) 1px, transparent 1px, transparent 10px),
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.01) 0px, rgba(255, 255, 255, 0.01) 1px, transparent 1px, transparent 10px);
+}
+
+/* Banknote Guilloche (Light Mode) */
+.bg-guilloche-light {
+  background-image: 
+    radial-gradient(circle at 50% 25%, rgba(184, 126, 20, 0.06) 0%, transparent 60%),
+    repeating-linear-gradient(45deg, rgba(40, 30, 15, 0.02) 0px, rgba(40, 30, 15, 0.02) 1px, transparent 1px, transparent 10px),
+    repeating-linear-gradient(-45deg, rgba(40, 30, 15, 0.02) 0px, rgba(40, 30, 15, 0.02) 1px, transparent 1px, transparent 10px);
+}
+
+/* 3D Coin Preservation & Transform Spaces */
+.coin-perspective {
+  perspective: 1200px;
+  perspective-origin: center 40%;
+}
+
+.coin-object {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.coin-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.coin-backface {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: rotateY(180deg) translateZ(calc(var(--coin-thickness) / 2));
+}
+
+.coin-frontface {
+  transform: translateZ(calc(var(--coin-thickness) / 2));
+}
+
+/* Reeded rim layer slices */
+.reeded-rim-slice {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  border: 1.5px dashed rgba(70, 48, 18, 0.45);
+}
+
+/* Specular Light Sweep Effect */
+.specular-sweep {
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.02) 30%,
+    rgba(255, 255, 255, 0.45) 48%,
+    rgba(255, 255, 255, 0.75) 50%,
+    rgba(255, 255, 255, 0.35) 52%,
+    rgba(255, 255, 255, 0.02) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Tactile Button Press Physics */
+.btn-tactile {
+  transition: transform 0.12s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.12s cubic-bezier(0.16, 1, 0.3, 1), filter 0.15s ease;
+}
+.btn-tactile:active {
+  transform: translateY(2px) scale(0.985);
+}
+
+/* Hide scrollbar for clean horizontal scrolls */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

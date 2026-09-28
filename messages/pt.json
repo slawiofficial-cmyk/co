@@ -1,0 +1,42 @@
+{
+  "Metadata": {
+    "title": "Cara ou Coroa — Cara ou Coroa 3D instantâneo e justo",
+    "description": "Jogue cara ou coroa online com física 3D realista, som metálico autêntico e resultados verdadeiramente aleatórios 50/50. Rápido, imparcial e gratuito."
+  },
+  "Header": {
+    "kicker": "Lançamento 3D imparcial",
+    "tagline": "Verdadeiramente aleatório, 50/50 justo",
+    "title": "Cara ou coroa instantâneo e imparcial",
+    "subtitle": "Simulação física refinada com moedas de metal em 3D, áudio acústico e resultados totalmente justos."
+  },
+  "Controls": {
+    "flip": "JOGAR MOEDA",
+    "heads": "CARA",
+    "tails": "COROA",
+    "headsLabel": "Cara",
+    "tailsLabel": "Coroa",
+    "yesNo": "Sim / Não",
+    "choice": "Opção A / B",
+    "custom": "Personalizar...",
+    "done": "Concluir",
+    "mute": "Silenciar",
+    "unmute": "Ativar som"
+  },
+  "Stats": {
+    "totalFlips": "Total de jogadas",
+    "sessionTape": "HISTÓRICO (ÚLTIMAS 10)",
+    "streak": "Sequência / Recorde",
+    "reset": "Zerar",
+    "noFlips": "Nenhuma jogada nesta sessão. Toque na moeda ou pressione Espaço."
+  },
+  "Audit": {
+    "title": "Detalhes da aleatoriedade",
+    "outcome": "Resultado",
+    "sample": "Amostra de entropia",
+    "identifier": "Identificador",
+    "timestamp": "Hora local",
+    "turns": "Voltas no ar",
+    "explainer": "Este sorteio consultou a entropia do sistema via Web Cryptography API com distribuição uniforme e sem desvios.",
+    "close": "Fechar"
+  }
+}

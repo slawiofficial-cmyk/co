@@ -1,0 +1,6 @@
+{
+  "name": "Flip & Coin — Tactical 3D Multilingual Coin Toss",
+  "description": "Production-grade tactile 3D coin toss experience with realistic metallic physics, custom currency mints, Web Audio sound synthesis, and cryptographic fairness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

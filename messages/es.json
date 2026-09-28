@@ -1,0 +1,42 @@
+{
+  "Metadata": {
+    "title": "Cara o Cruz — Lanzamiento de moneda 3D justo e instantáneo",
+    "description": "Lanza una moneda en línea con física 3D realista, sonido metálico y resultados aleatorios 50/50 comprobados. Rápido, imparcial y gratuito."
+  },
+  "Header": {
+    "kicker": "Lanzamiento 3D imparcial",
+    "tagline": "Totalmente aleatorio, 50/50 justo",
+    "title": "Tirada de moneda instantánea e imparcial",
+    "subtitle": "Simulación física realista con monedas de metal en 3D, sonido acústico y resultados perfectamente aleatorios."
+  },
+  "Controls": {
+    "flip": "LANZAR MONEDA",
+    "heads": "CARA",
+    "tails": "CRUZ",
+    "headsLabel": "Cara",
+    "tailsLabel": "Cruz",
+    "yesNo": "Sí / No",
+    "choice": "Opción A / B",
+    "custom": "Personalizar...",
+    "done": "Listo",
+    "mute": "Silenciar sonido",
+    "unmute": "Activar sonido"
+  },
+  "Stats": {
+    "totalFlips": "Tiradas totales",
+    "sessionTape": "HISTORIAL (ÚLTIMAS 10)",
+    "streak": "Racha / Récord",
+    "reset": "Reiniciar",
+    "noFlips": "Sin tiradas aún en esta sesión. Toca la moneda o pulsa Espacio."
+  },
+  "Audit": {
+    "title": "Detalles del resultado aleatorio",
+    "outcome": "Resultado",
+    "sample": "Muestra de entropía",
+    "identifier": "Identificador",
+    "timestamp": "Hora local",
+    "turns": "Vueltas completadas",
+    "explainer": "Este lanzamiento muestreó entropía del sistema mediante la API Web Cryptography con distribución binaria uniforme.",
+    "close": "Cerrar"
+  }
+}
